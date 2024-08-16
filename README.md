@@ -45,21 +45,22 @@ Here are some sample outputs showing the detection of drowsiness indicators:
 
 ### using eye detection
 <p align="center">
-<img src="images_outputs/Screenshot 2023-05-21 at 11.56.28 PM.png "Title"using eye detection"/>
+<img src="images_outputs/Screenshot 2023-05-21 at 11.56.28 PM.png "Title="using eye detection"width="800" height="auto" />
 </p>
 <p align="center">
-<img src="images_outputs/Screenshot 2023-05-21 at 11.56.59 PM.png"Title"using eye detection"/>
+<img src="images_outputs/Screenshot 2023-05-21 at 11.56.59 PM.png"Title="using eye detection"width="800" height="auto" />
 </p>
 
 ### using eye classification with face detection bounding box
 <p align="center">
-<img src="images_outputs/Screenshot 2023-05-21 at 11.56.40 PM.png "Title"using eye detection"/>
+<img src="images_outputs/Screenshot 2023-05-21 at 11.56.40 PM.png "Title= "using eye detection"width="800" height="auto" />
 </p>
 
 ## using eye classification with eye detection bounding box
 <p align="center">
-<img src="images_outputs/Screenshot 2023-05-21 at 11.56.49 PM.png"Title"using eye detection"/>
+<img src="images_outputs/Screenshot 2023-05-21 at 11.56.49 PM.png" Title ="using eye detection" width="800" height="auto" />
 </p>
+
 
 ## Conclusion
 
