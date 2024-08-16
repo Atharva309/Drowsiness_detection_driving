@@ -43,7 +43,7 @@ The model is trained to be lightweight and efficient, making it suitable for rea
 
 Here are some sample outputs showing the detection of drowsiness indicators:
 
-### using eye detection
+### using Object detection for eyes and Classification for yawns
 <p align="center">
 <img src="images_outputs/Screenshot 2023-05-21 at 11.56.28 PM.png "Title="using eye detection"width="800" height="auto" />
 </p>
@@ -51,12 +51,12 @@ Here are some sample outputs showing the detection of drowsiness indicators:
 <img src="images_outputs/Screenshot 2023-05-21 at 11.56.59 PM.png"Title="using eye detection"width="800" height="auto" />
 </p>
 
-### using eye classification with face detection bounding box
+### using image classification with face detection bounding box
 <p align="center">
 <img src="images_outputs/Screenshot 2023-05-21 at 11.56.40 PM.png "Title= "using eye detection"width="800" height="auto" />
 </p>
 
-## using eye classification with eye detection bounding box
+## using image classification with eye detection bounding box
 <p align="center">
 <img src="images_outputs/Screenshot 2023-05-21 at 11.56.49 PM.png" Title ="using eye detection" width="800" height="auto" />
 </p>
