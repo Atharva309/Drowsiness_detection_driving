@@ -21,22 +21,22 @@ This project utilizes two key datasets:
 1. **Eye State Classification**:
    - The model classifies images as either "eyes open" or "eyes closed" to determine drowsiness.
    - This classification is crucial as prolonged eye closure is a common sign of drowsiness.
-
+   - Two approaches were used for detecting eyes:
+     - **Eye Detection Dataset**: A bounding box is drawn around the eyes using a specialized eye detection dataset.
+     - **Face Detection Dataset**: A bounding box is drawn around the entire face, and the eyes are detected within that region.
 2. **Yawn Detection**:
    - The YOLOv5 model is used to detect yawns, which often occur when a person is drowsy.
    - The model continuously monitors the driver's face for signs of yawning.
-
 3. **Drowsiness Decision Logic**:
    - The system integrates the results from both eye state classification and yawn detection to make a final drowsiness prediction.
    - If the eyes are closed for a specified period or if yawns are detected frequently, the system triggers an alert.
 
+
 ## YOLOv5 for Drowsiness Detection
 
 YOLOv5 (You Only Look Once) is a real-time object detection system. In this project, YOLOv5 is used for:
-
 - **Eye Detection**: Identifying the position and state of the eyes (open or closed).
 - **Yawn Detection**: Detecting when the driver is yawning using bounding boxes around the mouth region.
-
 The model is trained to be lightweight and efficient, making it suitable for real-time deployment in vehicle systems.
 
 ## Example Outputs
